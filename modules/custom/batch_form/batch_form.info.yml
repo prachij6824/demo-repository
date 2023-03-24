@@ -1,0 +1,5 @@
+name: Batch Process
+description: Custom Module for Batch Process
+type: module
+core_version_requirement: ^8 || ^9
+package: custom

@@ -1,0 +1,7 @@
+batch_form.import_excel:
+  path: '/admin/structure/batch_form/sheet/import'
+  defaults:
+    _title: 'Upload sheet'
+    _form: '\Drupal\batch_form\Form\CsvImportForm'
+  requirements:
+    _permission: 'Import form'
