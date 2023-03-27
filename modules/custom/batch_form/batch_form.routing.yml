@@ -1,7 +1,7 @@
-batch_form.import_excel:
-  path: '/admin/structure/batch_form/sheet/import'
+batch_form.delete_node_example:
+  path: '/batch-example/delete'
   defaults:
-    _title: 'Upload sheet'
-    _form: '\Drupal\batch_form\Form\CsvImportForm'
+    _form: '\Drupal\batch_form\Form\DeleteNodeForm'
+    _title: 'Batch Example'
   requirements:
-    _permission: 'Import form'
+    _permission: 'access content'
