@@ -5,3 +5,4 @@ batch_form.delete_node_example:
     _title: 'Batch Example'
   requirements:
     _permission: 'access content'
+  
